@@ -1,0 +1,31 @@
+2026-11-08 04:56:39,467 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-08 04:56:39,484 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2026-11-08 04:56:39,485 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2026-11-08 04:56:39,494 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-08 04:56:39,495 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-08 04:56:39,496 INFO o.a.j.JMeter: java.version=17.0.20.1
+2026-11-08 04:56:39,496 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-11-08 04:56:39,497 INFO o.a.j.JMeter: os.name=Linux
+2026-11-08 04:56:39,497 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-08 04:56:39,498 INFO o.a.j.JMeter: os.version=6.18.54.1-microsoft-standard-WSL2
+2026-11-08 04:56:39,498 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-08 04:56:39,498 INFO o.a.j.JMeter: java.awt.headless=true
+2026-11-08 04:56:39,499 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-08 04:56:39,499 INFO o.a.j.JMeter: Available Processors =8
+2026-11-08 04:56:39,508 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-08 04:56:39,509 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-08 04:56:39,510 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2026-11-08 04:56:39,511 INFO o.a.j.JMeter: user.dir  =/mnt/c/Users/User/Desktop/challenges/assessment-cc-sre-kubernetes-sr-01/codebase/rdicidr-0.1.0
+2026-11-08 04:56:39,512 INFO o.a.j.JMeter: PWD       =/mnt/c/Users/User/Desktop/challenges/assessment-cc-sre-kubernetes-sr-01/codebase/rdicidr-0.1.0
+2026-11-08 04:56:39,513 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: Sateesh FullName: Sateesh.localdomain
+2026-11-08 04:56:39,529 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to '/mnt/c/Users/User/Desktop/challenges/assessment-cc-sre-kubernetes-sr-01/codebase/rdicidr-0.1.0/jmeter-report' as folder is not empty
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:664) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:620) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:542) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:492) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
